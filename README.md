@@ -40,7 +40,7 @@ def add_entry(data, entry_type):
 def view_summary(data):
     month = datetime.today().strftime("%Y-%m")
     if month not in data:
-        print("📭 No records for this month.")
+        print("📭📭 No records for this month.")
         return
 
     income_total = sum(e["amount"] for e in data[month]["income"])
