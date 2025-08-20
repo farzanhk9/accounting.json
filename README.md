@@ -47,7 +47,7 @@ def view_summary(data):
     expense_total = sum(e["amount"] for e in data[month]["expenses"])
     balance = income_total - expense_total
 
-    print(f"\n📅 Summary for {month}")
+    print(f"\n📅📅 Summary for {month}")
     print(f"💰 Total Income: {income_total:.2f}")
     print(f"💸 Total Expenses: {expense_total:.2f}")
     print(f"📊 Balance: {balance:.2f}")
